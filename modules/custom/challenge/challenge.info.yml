@@ -1,0 +1,5 @@
+name: Challenge module
+type: module
+description: Custom module Challenge
+core: 8.x
+package: Custom

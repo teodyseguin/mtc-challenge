@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e64d8398c963abb6a608286320ff0d0c",
+    "content-hash": "d2929a1dcdfa2949d65c23d0081c1619",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -637,6 +637,108 @@
                 "parser"
             ],
             "time": "2014-09-09T13:34:57+00:00"
+        },
+        {
+            "name": "drupal/components",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/components.git",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/components-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "adb1872a655466d575c2d3396f7ca2daba0a2918"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1461060840",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "JohnAlbin",
+                    "homepage": "https://www.drupal.org/user/32095"
+                },
+                {
+                    "name": "RobLoach",
+                    "homepage": "https://www.drupal.org/user/61114"
+                }
+            ],
+            "description": "Registers “component libraries” defined in modules and themes with the Twig system",
+            "homepage": "https://www.drupal.org/project/components",
+            "support": {
+                "source": "https://git.drupalcode.org/project/components"
+            }
+        },
+        {
+            "name": "drupal/patternlab",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/patternlab.git",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/patternlab-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "cb1472d9d4dcc15614672a9bd84313a3f80f588b"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1463007839",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "febbraro",
+                    "homepage": "https://www.drupal.org/user/43670"
+                },
+                {
+                    "name": "illepic",
+                    "homepage": "https://www.drupal.org/user/192969"
+                }
+            ],
+            "description": "A Drupal theme whose Twig templates are integrated with Pattern Lab.",
+            "homepage": "https://www.drupal.org/project/patternlab",
+            "support": {
+                "source": "https://git.drupalcode.org/project/patternlab"
+            }
         },
         {
             "name": "easyrdf/easyrdf",
@@ -2837,26 +2939,27 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/minkphp/Mink.git",
-                "reference": "9ea1cebe3dc529ba3861d87c818f045362c40484"
+                "reference": "d5ee350c40baff5f331a05ebdbe1927345c9ac8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/minkphp/Mink/zipball/9ea1cebe3dc529ba3861d87c818f045362c40484",
-                "reference": "9ea1cebe3dc529ba3861d87c818f045362c40484",
+                "url": "https://api.github.com/repos/minkphp/Mink/zipball/d5ee350c40baff5f331a05ebdbe1927345c9ac8b",
+                "reference": "d5ee350c40baff5f331a05ebdbe1927345c9ac8b",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.1",
-                "symfony/css-selector": "~2.1|~3.0"
+                "symfony/css-selector": "^2.7|^3.0|^4.0"
             },
             "require-dev": {
-                "symfony/phpunit-bridge": "~2.7|~3.0"
+                "symfony/phpunit-bridge": "^3.3|^4.0"
             },
             "suggest": {
                 "behat/mink-browserkit-driver": "extremely fast headless driver for Symfony\\Kernel-based apps (Sf2, Silex)",
                 "behat/mink-goutte-driver": "fast headless driver for any app without JS emulation",
                 "behat/mink-selenium2-driver": "slow, but JS-enabled driver for any app (requires Selenium2)",
-                "behat/mink-zombie-driver": "fast and JS-enabled headless driver for any app (requires node.js)"
+                "behat/mink-zombie-driver": "fast and JS-enabled headless driver for any app (requires node.js)",
+                "dmore/chrome-mink-driver": "fast and JS-enabled driver for any app (requires chromium or google chrome)"
             },
             "type": "library",
             "extra": {
@@ -2887,7 +2990,7 @@
                 "testing",
                 "web"
             ],
-            "time": "2017-02-06T09:59:54+00:00"
+            "time": "2018-06-24T20:08:51+00:00"
         },
         {
             "name": "behat/mink-browserkit-driver",
@@ -3006,12 +3109,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/minkphp/MinkSelenium2Driver.git",
-                "reference": "93474c65a2a7bf959200ab5f7a14cc450645c185"
+                "reference": "8684ee4e634db7abda9039ea53545f86fc1e105a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/minkphp/MinkSelenium2Driver/zipball/93474c65a2a7bf959200ab5f7a14cc450645c185",
-                "reference": "93474c65a2a7bf959200ab5f7a14cc450645c185",
+                "url": "https://api.github.com/repos/minkphp/MinkSelenium2Driver/zipball/8684ee4e634db7abda9039ea53545f86fc1e105a",
+                "reference": "8684ee4e634db7abda9039ea53545f86fc1e105a",
                 "shasum": ""
             },
             "require": {
@@ -3059,7 +3162,7 @@
                 "testing",
                 "webdriver"
             ],
-            "time": "2018-01-07T19:17:08+00:00"
+            "time": "2018-10-10T12:39:06+00:00"
         },
         {
             "name": "doctrine/instantiator",
