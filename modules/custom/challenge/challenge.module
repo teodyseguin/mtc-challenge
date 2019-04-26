@@ -10,5 +10,7 @@
 function challenge_preprocess_page(&$variables) {
   $current_path = \Drupal::service('path.current')->getPath();
 
-  dump($current_path);
+  if ($current_path === '/cars') {
+    $variables['#attached']['library'][] = 'challenge/carquery';
+  }
 }

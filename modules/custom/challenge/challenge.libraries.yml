@@ -2,3 +2,5 @@ carquery:
   version: 1.x
   js:
     assets/js/carquery.0.3.4.js: {}
+  dependencies:
+    - core/jquery
