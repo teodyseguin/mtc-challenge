@@ -1,3 +1,28 @@
+### Local setup
+
+- Clone this repository and place it into your web server
+- Install the project normall
+- Import the configuration files found in `/config` directory
+
+### Manual Migration of Car Contents from Car Query API
+
+- Login to the site
+- Open your chrome dev tool, and go to the console tab.
+- Paste this code snippet from the console tab.
+
+```
+jQuery.ajax({
+  type: 'GET',
+  url: 'domain.com/challenge/cars/2009',
+  success: function(data) {
+    console.log(data);
+  }
+});
+```
+
+- Don't forget to update `domain.com` with the domain you are using
+- Replace 2009 with the year you wanted.
+
 ### Create settings.local.php
 ```
 touch settings.local.php
