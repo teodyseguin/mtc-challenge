@@ -1,0 +1,23 @@
+uuid: a8589386-ff54-4caf-8c32-fe9e3ed806c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_weight_kg
+    - node.type.car
+id: node.car.field_weight_kg
+field_name: field_weight_kg
+entity_type: node
+bundle: car
+label: 'Weight KG'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,19 @@
+uuid: 679f32eb-14a4-4179-8643-131a5af24341
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_engine_type
+    - node.type.car
+id: node.car.field_engine_type
+field_name: field_engine_type
+entity_type: node
+bundle: car
+label: 'Engine Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

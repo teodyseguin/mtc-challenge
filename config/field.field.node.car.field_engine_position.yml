@@ -1,0 +1,19 @@
+uuid: cc8cb735-01ee-4d15-a8ad-3753e747261c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_engine_position
+    - node.type.car
+id: node.car.field_engine_position
+field_name: field_engine_position
+entity_type: node
+bundle: car
+label: 'Engine Position'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

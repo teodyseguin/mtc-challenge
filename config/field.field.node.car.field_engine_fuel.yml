@@ -1,0 +1,19 @@
+uuid: 4406b7f4-0742-432f-a1e2-5795da1c4197
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_engine_fuel
+    - node.type.car
+id: node.car.field_engine_fuel
+field_name: field_engine_fuel
+entity_type: node
+bundle: car
+label: 'Engine Fuel'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
